@@ -731,12 +731,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     top: 10rem;
   }
 
-  .md\:left-80 {
-    left: 20rem;
+  .md\:left-40 {
+    left: 10rem;
   }
 
   .md\:right-40 {
     right: 10rem;
+  }
+
+  .md\:mr-40 {
+    margin-right: 10rem;
+  }
+
+  .md\:ml-28 {
+    margin-left: 7rem;
   }
 
   .md\:h-screen {
@@ -765,6 +773,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pt-0 {
     padding-top: 0px;
+  }
+
+  .md\:pl-8 {
+    padding-left: 2rem;
   }
 
   .md\:pl-0 {
