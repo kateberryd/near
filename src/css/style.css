@@ -638,9 +638,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-5xl {
   font-size: 3rem;
 }
-.text-sm {
-  font-size: .875rem;
-}
 .font-extrabold {
   font-weight: 800;
 }
@@ -656,8 +653,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .uppercase {
   text-transform: uppercase;
 }
-.leading-6 {
-  line-height: 1.5rem;
+.leading-8 {
+  line-height: 2rem;
 }
 .text-slider2 {
   --tw-text-opacity: 1;
@@ -774,8 +771,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 0px;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
   }
 }
 @media (min-width: 1024px) {
