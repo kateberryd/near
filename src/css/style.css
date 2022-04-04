@@ -469,25 +469,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .relative {
   position: relative;
 }
-.left-48 {
-  left: 12rem;
-}
-.right-48 {
-  right: 12rem;
-}
-.top-60 {
-  top: 15rem;
-}
 .left-10 {
   left: 2.5rem;
 }
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 .flex {
   display: flex;
@@ -518,9 +505,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-screen {
   width: 100vw;
-}
-.w-2\/4 {
-  width: 50%;
 }
 .w-96 {
   width: 24rem;
@@ -730,8 +714,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     visibility: visible;
   }
 
+  .md\:absolute {
+    position: absolute;
+  }
+
   .md\:relative {
     position: relative;
+  }
+
+  .md\:left-48 {
+    left: 12rem;
+  }
+
+  .md\:right-48 {
+    right: 12rem;
+  }
+
+  .md\:top-60 {
+    top: 15rem;
   }
 
   .md\:top-40 {
@@ -744,6 +744,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:right-40 {
     right: 10rem;
+  }
+
+  .md\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:mr-40 {
