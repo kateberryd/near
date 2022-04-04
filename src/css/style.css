@@ -460,6 +460,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .visible {
   visibility: visible;
 }
+.invisible {
+  visibility: hidden;
+}
 .absolute {
   position: absolute;
 }
@@ -519,8 +522,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-2\/4 {
   width: 50%;
 }
-.w-80 {
-  width: 20rem;
+.w-96 {
+  width: 24rem;
 }
 .w-3\/4 {
   width: 75%;
@@ -722,6 +725,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 @media (min-width: 768px) {
+
+  .md\:visible {
+    visibility: visible;
+  }
 
   .md\:relative {
     position: relative;
