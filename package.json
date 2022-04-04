@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss src/css/tailwind.css -o src/css/style.css"
-
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   "homepage": "https://github.com/charlinto/grid_Near#readme",
   "dependencies": {
     "autoprefixer": "^10.4.4",
+    "express": "^4.17.3",
     "postcss-cli": "^9.1.0",
     "tailwindcss": "^3.0.23"
   }
