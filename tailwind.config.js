@@ -9,16 +9,12 @@ module.exports = {
       ,
       colors:{
         'slider1': 'rgb(237, 168, 10)',
-        'slider2': 'rgb(102, 187, 198)',
-        'paralo-color': '#777777',
-        'title-color': 'rgba(237, 168, 10, 0.3)',
-        'slider3': 'rgb(204, 80, 75)',
-        'bg-body': 'rgba(237, 168, 10, 0.1)',
-        'white': '#ffffff', 
-        'textgray': '#808080',
-        'headercolor': '#ebf7f2',
-        'textblack': '#000',
-        'fp-white': '#ffffff'
+        'primary': '#FFF8F4',
+        'secondary': '#F3782C',
+        'secondary2': '#134E60',
+        'secondary3': '#2140A3',
+        'secondary4': '#F8F9FE'
+       
       },
       tracking:{
         'tracking-widest': '2em'
