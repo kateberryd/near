@@ -5,47 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEAR</title>
+    <title>NEAR Protocol | Reimagine your world</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
 
-    <link rel="stylesheet" href="https://near-app001.herokuapp.com/src/css/style.css">
-
-
-
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
+    
     <style>
+    
+    p {
+            font-family: 'Montserrat', sans-serif;
+        }
 
+        h1 {
+            font-family: 'Montserrat', sans-serif;
 
-
+        }
     </style>
+
 </head>
 
-
-<body class="">
+<body class="" onload=todayDate()>
     <div class="wrapper ">
         <header class="h-auto bg-gradient-to-r from-primary to-white">
 
 
 
             <nav className=" ">
-                <div class="flex justify-between px-10 md:mx-auto py-4  bg-white">
+                <div class="flex  px-10 md:mx-auto py-4 justify-center  bg-white">
                     <div class="logo items-center ">
-                        <img class="block h-14 w-auto mr-2" src="../imgs/logo.png" alt="Workflow" />
+                        <img class="block h-14 w-auto mr-2" src="imgs/near_logo.png" alt="Workflow" />
                     </div>
 
 
-                    <div class="hidden md:flex space-x-4 item-center">
+                    <!-- <div class="hidden md:flex space-x-4 item-center">
                         <a href="#"
                             class=" hover:underline hover:underline-offset-8    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
                             Learn
@@ -81,11 +80,11 @@
 
 
 
-                    </div>
+                    </div> -->
 
 
                     <!-- Mobile menu button -->
-                    <div class="md:hidden mobile-btn  flex items-center">
+                    <!-- <div class="md:hidden mobile-btn  flex items-center">
                         <button class="outline-none mobile-menu-button" data-collapse-toggle="mobile-men "
                             type="button">
                             <svg class=" w-10 h-10 text-gray-500 hover:text-secondary3 " x-show="!showMenu" fill="none"
@@ -96,16 +95,14 @@
                         </button>
 
 
-                    </div>
-
-
+                    </div> -->
 
                    
                 </div>
 
 
 
-                <div class="hidden mobile-menu px-10 space-y-3 p-10 item-start bg-white">
+                <!-- <div class="hidden mobile-menu px-10 space-y-3 p-10 item-start bg-white">
 
                     <a href="#"
                         class=" hover:underline hover:underline-offset-8 block    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
@@ -143,15 +140,16 @@
 
 
 
-                </div>
+                </div> -->
 
 
             </nav>
-            <div class="content px-8 md:px-20 py-20 pt-40">
+            <div class="content grid grid-cols-1 md:grid-cols-2 px-8 md:px-20 py-8 pt-20">
+               <div>
                 <a
-                    class="border border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Near</a>
+                class="border border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Near</a>
 
-                <div class="heading-text  md:w-2/4 pt-10">
+                <div class="heading-text  md:w-full pt-10">
                     <h1 class="text-5xl text-extrabold text-secondary2">Reimagine your <span
                             class="text-secondary">world</span>.</h1>
                     <p class="text-sm pt-6 mb-10">Through simple, secure, and scalable technology, NEAR empowers
@@ -159,15 +157,20 @@
                         reimagined for a more sustainable and inclusive future.
 
                     </p>
-                    <a class="border border-secondary3 rounded-full bg-secondary3 text-white px-8 py-4">Get Started</a>
+                    <a href="#" class="border border-secondary3 rounded-full bg-secondary3 text-white px-8 py-4">Get Started</a>
                 </div>
+               </div>
+               <div class="hidden md:block img w-full">
+                <img src="imgs/1.jpg" loading="lazy" class="object-cover" alt="">
+
+               </div>
             </div>
         </header>
         <section>
             <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-white to-primary ">
                 <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
                     <div class="img">
-                        <img src="../imgs/1.jpg" class="object-contain" alt="">
+                        <img src="imgs/3.jpg" loading="lazy" class="object-contain" alt="">
                     </div>
                     <div class="heading-text md:w-3/4">
                         <div class="con ">
@@ -178,7 +181,7 @@
 
                         <h1 class="text-5xl pt-10 text-extrabold text-secondary2">What is <span
                                 class="text-secondary uppercase">Near</span>.</h1>
-                        <p class="text-sm pt-6 mb-14">NEAR is a decentralized development platform utilizing
+                        <p class="text-sm pt-6 mb-14 tracking-wide">NEAR is a decentralized development platform utilizing
                             developer-friendly, sharded, proof-of-stake public blockchain that aspires to make it very
                             easy for developers to build decentralized applications (dapps). Dapps provide users with
                             easy-to-use applications that guarantee the security of high values assets like money and
@@ -189,8 +192,7 @@
                         </p>
 
 
-                        <a class="border border-secondary3 rounded-full bg-transparent text-secondary3 px-8 py-4">Learn
-                            more</a>
+                       
 
                     </div>
                 </div>
@@ -210,7 +212,7 @@
                         </div>
                         <h1 class="text-5xl pt-10 text-extrabold text-secondary2">How it <span
                                 class="text-secondary uppercase">works</span>.</h1>
-                        <p class="text-sm pt-6 mb-14">NEAR provides a community-operated cloud-based infrastructure for
+                        <p class="text-sm pt-6 mb-14 tracking-wide">NEAR provides a community-operated cloud-based infrastructure for
                             deploying and running dapps by combining the features of a decentralized database with a
                             serverless computing platform. The NEAR token, which allows this platform to run, also
                             enables applications built on it to interact with each other.
@@ -218,13 +220,11 @@
 
 
                         </p>
-                        <a class="border border-secondary3 rounded-full bg-transparent text-secondary3 px-8 py-4">Learn
-                            more</a>
-
+                    
                     </div>
 
                     <div class="img">
-                        <img src="../imgs/3.jpg" class="object-contain" alt="">
+                        <img src="imgs/2.jpg" loading="lazy" class="object-contain" alt="">
                     </div>
                 </div>
             </div>
@@ -234,10 +234,10 @@
         <section>
             <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-white to-primary ">
                 <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
-                    <div class="img">
-                        <img src="../imgs/6.jpg" class="object-contain" alt="">
+                    <div class="img order-2 md:order-1">
+                        <img src="imgs/6.jpg" loading="lazy" class="object-contain" alt="">
                     </div>
-                    <div class="heading-text md:w-3/4">
+                    <div class="heading-text md:w-3/4 order-1 md:order-2">
                         <div class="con ">
                             <a
                                 class="border  border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Faster</a>
@@ -245,7 +245,7 @@
                         </div>
                         <h1 class="text-5xl pt-10 text-extrabold text-secondary2">Why is it <span
                                 class="text-secondary uppercase">Faster</span>.</h1>
-                        <p class="text-sm pt-6 mb-14">
+                        <p class="text-sm pt-6 mb-14 tracking-wide">
 
                             The NEAR platform has been designed to be used in a permissionless way. However, a set of
                             community-built tools and reference guides have been created to help developers. The NEAR
@@ -253,8 +253,7 @@
                             create, test and deploy applications from their local environments.
 
                         </p>
-                        <a class="border border-secondary3 rounded-full bg-transparent text-secondary3 px-8 py-4">Learn
-                            more</a>
+                     
 
                     </div>
                 </div>
@@ -274,7 +273,7 @@
 
                         </div>
                         <h1 class="text-5xl pt-10 text-extrabold text-secondary2">What can be done on <span
-                                class="text-secondary uppercase">Near</span>.</h1>
+                                class="text-secondary uppercase tracking-wide">Near</span>.</h1>
                         <p class="text-sm pt-6 mb-14">Build decentralized apps on a developer-friendly platform that
                             features low fees, high speeds, and infinite scalability. Start up or grow up on a platform
                             that sets you up for success. Investors, partners, and users are waiting. Belong to a
@@ -284,13 +283,12 @@
 
 
                         </p>
-                        <a class="border border-secondary3 rounded-full bg-transparent text-secondary3 px-8 py-4">Learn
-                            more</a>
+                   
 
                     </div>
 
                     <div class="img">
-                        <img src="../imgs/12.jpg" class="object-contain" alt="">
+                        <img src="imgs/12.jpg" loading="lazy" class="object-contain" alt="">
                     </div>
                 </div>
             </div>
@@ -300,10 +298,10 @@
         <section>
             <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-white to-primary ">
                 <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
-                    <div class="img">
-                        <img src="../imgs/7.jpg" class="object-contain" alt="">
+                    <div class="img order-2 md:order-1">
+                        <img src="imgs/7.jpg" loading="lazy" class="object-contain" alt="">
                     </div>
-                    <div class="heading-text md:w-3/4">
+                    <div class="heading-text md:w-3/4 order-1 md:order-2">
 
                         <div class="con ">
                             <a
@@ -321,8 +319,7 @@
 
 
                         </p>
-                        <a class="border border-secondary3 rounded-full bg-transparent text-secondary3 px-8 py-4">Learn
-                            more</a>
+                       
 
                     </div>
                 </div>
@@ -362,17 +359,69 @@
                             closely resemble applications and experiences the masses are familiar with.
 
                         </p>
-                        <a class="border border-secondary3 rounded-full bg-transparent text-secondary3 px-8 py-4">Learn
-                            more</a>
-
+                       
                     </div>
 
                     <div class="img">
-                        <img src="../imgs/12.jpg" class="object-contain" alt="">
+                        <img src="imgs/11.jpg" loading="lazy" class="object-contain" alt="">
                     </div>
                 </div>
             </div>
         </section>
+        
+        <section>
+            <div class="newsletter  items-center grid grid-cols-1 md:grid-cols-2 bg-white py-10 px-8 md:px-20 gap-6">
+                <div class="form-group flex  items-center ">
+                    <span class="pr-10"><i class=" fa-solid fa-envelope text-secondary3 "></i></span>
+                     <input type="text" class="bg-transparent outline-none text-xs md:text-sm md:w-2/4 w-2/4"   placeholder="Type your emal to receive update"> 
+                     <div class="flex-shrink">
+                        <a href="#" class="rounded-full text-white border border-secondary3 bg-secondary3 md:px-8 py-2 px-6">Subscribe</a>
+
+                     </div>
+
+                </div>
+            <p class="text-xs font-extralight  text-gray-500 mr-8 pt-4 md:pt-0">
+                No fluff, just what you need to know. No spam. Never shared. Opt out at any time.
+
+            </p>
+            </div>
+        
+        </section>
+        
+        <footer class="content py-10 md:px-20 px-8 bg-gradient-to-r  from-primary to-white ">
+        
+          
+
+            <div class="footer-logo mx-auto mt-10">
+                <img src="imgs/near_logo.png"  class="object-contain w-28  mx-auto " alt="">
+            </div>
+            <p class="text-center text-textgray text-md font-bold pt-10 uppercase ">
+                &copy; <em id="date"></em>Near
+
+            </p>
+
+
+            <div class="social w-2/4 mt-10 flex font-light mx-auto justify-evenly text-m  text-textgray ">
+                <a href="">
+                    <i class=" text-secondary3 fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="text-secondary3 fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class=" text-secondary3 fa-brands fa-twitter"></i>
+
+                </a>
+                <a href="">
+                    <i class=" text-secondary3 fa-brands fa-linkedin"></i>
+
+
+                </a>
+
+            </div>
+
+
+        </footer>
 
         <script>
             const btn = document.querySelector(".mobile-btn");
@@ -381,9 +430,17 @@
             btn.addEventListener("click", () => {
                 menu.classList.toggle("hidden");
             });
+            
+            function todayDate(){
+                var d = new Date();
+                var n = d.getFullYear() + "  ";
+                return document.getElementById("date").innerHTML = n;
+            }
         </script>
 
 
 </body>
 
 </html>
+
+
